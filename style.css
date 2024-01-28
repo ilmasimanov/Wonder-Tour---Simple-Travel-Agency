@@ -187,3 +187,52 @@ header{
     background-color: white;
     color: #151515;
 }
+#section4{
+    width: 1839px;
+}
+
+#section4 h2 {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
+    font-weight: 550;
+}
+#section4 .flex-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 80px;
+}
+#section4 .flex-container .flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 425px;
+    height: 260px;
+    border: 10px solid #f4f4f4;
+    text-align: center;
+    cursor: pointer;
+    
+}
+#section4 .flex-container .flex-box:hover{
+    border: 2px solid;
+}
+#section4 a{
+    text-decoration: none;
+    color: #151515;
+    font-weight: 300;
+    font-size: 21px;
+    margin: 10px 0px;
+}
+#section4 p{
+    color: #9b9b9b;
+    padding: 0px 60px;
+}
